@@ -25,10 +25,13 @@ This time, everything will be different. This time, you can do it right.*
 
 Players (ideally played by programmers) take on the (reluctant) role of managers.
 Their goal is to build "the project of the year" before another competitor does it,
-or before the 12 rounds run out (= months).
+or before the 12 rounds run out.
 
 To make this happen, you will need to gather a team of programmers and deliver features,
 while battling with technical debt, accumulating bugs, and pointy haired bosses.
+
+In each round players take an action, implement new features or fix bugs,
+and face some event.
 
 (=) *"No need to explain more at this point, you know how this all works!"*
 
@@ -41,11 +44,29 @@ This is an ironic reference to reality, and the game tries to pack as many of th
 
 ## Components
 
-A. Programmers. Each player starts with one "epic" programmer.
-   The player represents the programmer.
-   During the game more programmers can be recruited from the audience.
+A. Programmer tokens. During a live session, it's better to use real physical programmers,
+   instead of tokens, recruited from the audience during the course of the game.
 
-B. Interns. Interns are also recruited from the audience.
+B. Intern tokens. Like programmers, best to recruite from the audience.
+
+C. Productiviy tokens. Programmers and interns have productivity,
+   which an be used to implement features and squash bugs.
+
+D. Sanity tokens. Programmers and interns have sanity,
+   which helps them do their jobs.
+
+E. Feature tokens. Features are implemented by programmers and interns,
+   and increase the value of the product.
+
+F. Bug tokens. Bugs are created by programmers and interns,
+   and decrease the value of the product.
+
+G. Event deck. In each round some (unfortunate) event occurs to each player.
+
+H. Training cards. Training increases the sanity of programmers and interns.
+   Each training card is unique, and has a description of its effects.
+
+I. Starting player token.
 
 ## Setup
 
@@ -76,10 +97,21 @@ The programmer starts with 5 productivity tokens and no skills.
 
 ## Object of the game
 
+Develop a star team to build "the project of the year" before another competitor does it,
+or before the 12 rounds run out.
+
 ## Playing the game
 
-A. Action phase
+In each round, there are 3 phases:
 
-B. Production phase
+A. Action phase: take one of the possible actions
 
-C. Event phase
+B. Production phase: programmers and interns implement new features and/or fix bugs
+
+C. Event phase: some event happens
+
+All players perform the first phase, then all players perform the second phase, and so on.
+
+Players take turns in clockwise order.
+
+In every round, the starting player token is passed to the next player in clockwise order.
