@@ -9,8 +9,8 @@ because, frankly, they got nobody else to get this done.*
 
 ---
 
-(=) The sentences and sections marked with `(=)` are notes for game masters.
-Try to not reveal these details to the players, let them discover on their own, through playing.
+(=) Th symbol `(=)` marks sentences and sections as "secret" notes for game masters.
+Do not read them out loud to players, let them discover on their own, through playing.
 
 ---
 
@@ -63,8 +63,12 @@ F. Bug tokens. Bugs are created by programmers and interns,
 
 G. Event deck. In each round some (unfortunate) event occurs to each player.
 
-H. Training cards. Training increases the sanity of programmers and interns.
-   Each training card is unique, and has a description of its effects.
+H. Training cards.
+   (=) Training increases the sanity of programmers and interns.
+   The front of the card tells only the name, such as "unit testing",
+   the effect is described on the backside, and remains hidden until the card is taken as an action.
+   Taking the same training card again will have no additional effect.
+   All training cards are available to all players.
 
 I. Starting player token.
 
@@ -78,6 +82,7 @@ Programmer archetypes:
 
 - Neckbeard
 - FGITW (fastest gun in the west)
+- BOFH (bastard operator from hell)
 - ...
 
 (=) This "choice" is just for fun. All archetypes are the same.
@@ -102,7 +107,9 @@ or before the 12 rounds run out.
 
 ## Playing the game
 
-In each round, there are 3 phases:
+There are 12 rounds to play.
+
+Each round consists of 3 phases:
 
 A. Action phase: take one of the possible actions
 
@@ -110,8 +117,20 @@ B. Production phase: programmers and interns implement new features and/or fix b
 
 C. Event phase: some event happens
 
-All players perform the first phase, then all players perform the second phase, and so on.
+In each phase, the starting player acts first, followed by next player in clockwise order.
 
-Players take turns in clockwise order.
+When a phase is completed by all players, they do the next phase.
 
-In every round, the starting player token is passed to the next player in clockwise order.
+At the end of the round, the starting player passes the starting player token
+to the next player in clockwise order.
+
+### Actions
+
+- Hire and fire: hire one programmer or two interns. Fire any number of programmers or interns.
+  (=) Only half of the players (rounded up) can hire a programmer, because the job market is not so big.
+
+- Get a training: choose a training card. Flip the card to read and apply its effects.
+
+- Deliver undelivered features
+
+- ...
