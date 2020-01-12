@@ -9,7 +9,7 @@ because, frankly, they got nobody else to get this done.*
 
 ---
 
-(=) Th symbol `(=)` marks sentences and sections as "secret" notes for game masters.
+(=) The symbol `(=)` marks sentences and sections as "secret" notes for game masters.
 Do not read them out loud to players, let them discover on their own, through playing.
 
 ---
@@ -100,7 +100,7 @@ Later they could affect the gameplay.
 
 The programmer starts with 5 productivity tokens and no skills.
 
-## Object of the game
+## Goal of the game
 
 Develop a star team to build "the project of the year" before another competitor does it,
 or before the 12 rounds run out.
@@ -134,3 +134,95 @@ to the next player in clockwise order.
 - Deliver undelivered features
 
 - ...
+
+## Underlying notions
+
+Some ideas to be revealed by playing, for learning or amusement about the way software development and project management works.
+
+SonarSource mantra:
+
+- Fix the leak: It's better to prevent new problems from arising than fixing existing quality issues.
+
+- Baby steps: It's better grow feature incrementally
+
+- Never develop purely technical work with no marketable value
+
+- Choose your battles
+
+- Less is more, KISS
+
+- Using a quality management tool is a net positive without a shadow of a doubt.
+
+- It's crucial to work on the right problem (and to find out what it is really)
+
+Other ideas:
+
+- Trainees reduce the productivity of their mentors, while the mentors solidify their knowledge.
+
+- Trainees left unchecked may wreak havoc later ("reckoning")
+
+- Some rock star developers are highly productive but not good team players
+
+- Some rock star developers are good at raising the level around them, but not very productive
+
+- Changing a tool (or anything) may increase productivity in the long run at some initial cost
+
+- Software upgrades may have an increased cost as well as risk
+
+- New features may bring new bugs too
+
+- Community backlash may be unpleasant but harmless
+
+- Adding more people on a project does not increase productivity linearly (diminishing returns, communication overhead)
+
+- Write-only code is unmaintainable
+
+- Certain practices are always net positive virtually without bounds: code reviews, unit tests, coding standards
+
+- Technical debt has similarities with real-life debt
+
+- The requirements for any project may be difficult to grasp, and take a lot of work to clarify
+
+- A waterfall-style development is likely to result in something that cannot be extended
+
+- Certain designs may make a very likely extension easy to do, or extremely hard to do
+
+- If the requirements are not well understood, the developers may completely miss the target
+
+- Discovering the real requirements may be a fun sub-plot adventure on its own
+
+- How does a well-engineered code base decay after it's abandoned?
+
+- Broken windows principle: unsolved problems draw more problems
+
+## [Mechanics](https://boardgamegeek.com/browse/boardgamemechanic)
+
+Possibly mechanics to include, combine.
+
+- Action points: decide the allocation of resources to tasks
+- Card drafting: decide the best action from an available set
+- Critical hits and failures: ex: the trainee project may bring new insight or be a complete loss
+- Hand management: in case of card game, but preferably not...
+- Income: ... budget? time? (action points)
+- Market: of available programmer archetypes for hire
+- Solo mode: for testing?
+- Sudden Death Ending: when the project is done (= all requirements complete), the game ends immediately
+- Worker placement ~ action points
+- Automatic resource growth: time? bugs? skills? experience?
+- Campaign: extending the project, or maintaining the project
+- Chaining: ...
+- Events: reckoning!
+- Increase value of unchosen resources: increase risk of unattended bugs
+- Prisoner's Dilemma: ...
+- Time Track: increasing pressure
+- Variable Player Powers: one manager may inspire its workers, another may get more funding
+- Victory points as a resource: completed features
+
+Requirements to complete for project of the year?
+
+- Variable: select k cards from n
+- Variable: let players lobby for k cards from n
+- Variable: let requirements be fuzzy in the beginning, and emerge during the game
+- Requirements ideas: see Code Complete, 3.1 What Kind of Software...?
+  - business system, mission-critical system, embedded life-critical system
+  - different planning, management, and design is appropriate
